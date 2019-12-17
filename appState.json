@@ -60,7 +60,7 @@
       "6686c640-ce5f-4b72-a113-0d9d364e9c36",
       "2a1d0f39-ca45-4a37-85d8-d751f7548d16"
     ],
-    "currentFileId": "6686c640-ce5f-4b72-a113-0d9d364e9c36",
+    "currentFileId": "2a1d0f39-ca45-4a37-85d8-d751f7548d16",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -87,7 +87,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576576056148
+    "lastSave": 1576576112501
   },
   "VCS_STATE": {
     "provider": "GitHub",
