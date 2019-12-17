@@ -1,0 +1,99 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "36ed5470-4c22-4685-a39d-74ace1e476c3": {
+        "id": "36ed5470-4c22-4685-a39d-74ace1e476c3",
+        "parent": null,
+        "name": "NCIS3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6686c640-ce5f-4b72-a113-0d9d364e9c36",
+          "6e3e81e2-d761-483a-8e09-1ab5da2d6fc1"
+        ],
+        "isRemovable": false,
+        "filePath": "NCIS3"
+      },
+      "6686c640-ce5f-4b72-a113-0d9d364e9c36": {
+        "id": "6686c640-ce5f-4b72-a113-0d9d364e9c36",
+        "parent": "36ed5470-4c22-4685-a39d-74ace1e476c3",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "NCIS3/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "6e3e81e2-d761-483a-8e09-1ab5da2d6fc1": {
+        "id": "6e3e81e2-d761-483a-8e09-1ab5da2d6fc1",
+        "parent": "36ed5470-4c22-4685-a39d-74ace1e476c3",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2a1d0f39-ca45-4a37-85d8-d751f7548d16"
+        ],
+        "isRemovable": true,
+        "filePath": "NCIS3/sub1"
+      },
+      "2a1d0f39-ca45-4a37-85d8-d751f7548d16": {
+        "id": "2a1d0f39-ca45-4a37-85d8-d751f7548d16",
+        "parent": "6e3e81e2-d761-483a-8e09-1ab5da2d6fc1",
+        "name": "ss.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "NCIS3/sub1/ss.js"
+      }
+    },
+    "rootNode": "36ed5470-4c22-4685-a39d-74ace1e476c3",
+    "openFiles": [
+      "6686c640-ce5f-4b72-a113-0d9d364e9c36",
+      "2a1d0f39-ca45-4a37-85d8-d751f7548d16"
+    ],
+    "currentFileId": "2a1d0f39-ca45-4a37-85d8-d751f7548d16",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "NCIS3",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576575745983
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "NCIS3",
+      "url": "https://github.com/zgma-test/NCIS3"
+    }
+  }
+}
